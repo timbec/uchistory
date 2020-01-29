@@ -1,0 +1,12 @@
+# Deploying A Gatsby Site 
+
+- Deploy from the command line. 
+- Allow staging/previews
+- Can be tied to a code repo. 
+
+- On master - goes to live. Staging branch - goes to staging. 
+
+- uses **Netflify**
+- sync to github repo. 
+
+TBC - no point in going through this until I have something to deploy
