@@ -7,6 +7,14 @@ module.exports = {
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-source-graphql`, 
+      options: {
+        typeName: `WPGraphql`, 
+        fieldName: `wpgraphql`,
+        url: `http://localhost:8888/uraniumcity-history/graphql`
+      }
+    }, 
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
